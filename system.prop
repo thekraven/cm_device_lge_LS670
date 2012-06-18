@@ -131,6 +131,18 @@ ro.config.vc_call_vol_steps=15
 #net.connectivity.type=CDMA1
 #mobiledata.interfaces=wlan0,ppp0
 
+# V6 SuperCharger settings
+ro.ril.hsxpa=3
+ro.ril.gprsclass=12
+ro.ril.hep=1
+ro.ril.enable.dtm=1
+ro.ril.hsdpa.category=28
+ro.ril.enable.a53=1
+ro.ril.enable.3g.prefix=1
+ro.ril.htcmaskw1.bitmask=4294967295
+ro.ril.htcmaskw1=14449
+ro.ril.hsupa.category=9
+
 ro.telephony.call_ring.delay=3000
 ro.com.google.locationfeatures=1
 ro.cdma.voicemail.number=mine
