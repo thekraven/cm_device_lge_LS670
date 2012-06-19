@@ -1,3 +1,5 @@
+PRODUCT_COPY_FILES += device/lge/thunderc-common/configs/media_profiles.xml:system/etc/media_profiles.xml
+
 # XXX: should be full_base_telephony?
 $(call inherit-product, build/target/product/full.mk)
 
